@@ -1,0 +1,13 @@
+name: hello!
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  hello_job:
+    runs_on: ubuntu-20.04
+    steps:
+      - name: say hello
+        run: echo "Hello github"
