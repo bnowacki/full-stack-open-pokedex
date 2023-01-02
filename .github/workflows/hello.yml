@@ -11,3 +11,7 @@ jobs:
     steps:
       - name: say hello
         run: echo "Hello github"
+      - name: Time now
+        run: date
+      - name: Directory contents
+        run: ls -l
